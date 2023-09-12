@@ -1,10 +1,12 @@
 # MERN Blog App
 
-This is a simple MERN app for creating and managing blog posts.
+Simple frontend blog app
 
 ## Features
 
-- Create, read, update, and delete blog posts.
+- Create, read blog posts.
+- Update (work in progress)
+- Delete (work in progress)
 
 ## Technologies Used
 
@@ -16,9 +18,9 @@ This is a simple MERN app for creating and managing blog posts.
 
 - **Backend**:
   - Node.js
-  - Express.js
-  - MongoDB (for database)
+  - MongoDB (for database - work in progress)
 
 ## Usage
 
-- Visit the application in your web browser.
+- npm i
+- npm start

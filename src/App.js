@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { dummyPosts } from "./dummyData";
+import { dummyPosts } from "./dummyPosts";
 import BlogPostList from "./components/BlogPostList";
 
 function App() {

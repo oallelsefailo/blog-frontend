@@ -35,3 +35,7 @@ export const dummyPosts = [
     date: "September 23, 2023",
   },
 ];
+
+export function findPostById(postId) {
+  return dummyPosts.find((post) => post.id === postId);
+}

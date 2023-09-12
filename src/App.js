@@ -14,22 +14,12 @@ function App() {
           <Route path="/" element={<BlogPostList posts={dummyPosts} />} />
           <Route
             path="/post/:id"
-            element={({ match }) => {
-              const postId = match.params.id;
-              const selectedPost = findPostById(postId);
-              console.log("postId:", postId);
-              console.log("selectedPost:", selectedPost);
-              return <BlogPostDetail post={selectedPost} />;
-            }}
+            element={<BlogPostDetail posts={dummyPosts} />}
           />
         </Routes>
       </div>
     </Router>
   );
-}
-
-function findPostById(postId) {
-  return dummyPosts.find((post) => post.id.toString() === postId);
 }
 
 export default App;

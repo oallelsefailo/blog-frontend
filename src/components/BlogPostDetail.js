@@ -1,17 +1,24 @@
 import React from "react";
-import "./BlogPostDetail.css";
+import { useParams } from "react-router-dom";
 
-const BlogPostDetail = ({ post }) => {
+const BlogPostDetail = ({ posts }) => {
+  const { id } = useParams();
+  const selectedPost = findPostById(Number(id), posts);
+
   return (
     <div className="blog-post-detail">
-      <h2 className="post-title">{post.title}</h2>
-      <p className="post-content">{post.content}</p>
+      <h2 className="post-title">{selectedPost.title}</h2>
+      <p className="post-content">{selectedPost.content}</p>
       <div className="post-meta">
-        <span>Author: {post.author}</span>
-        <span>Date: {post.date}</span>
+        <span>Author: {selectedPost.author}</span>
+        <span>Date: {selectedPost.date}</span>
       </div>
     </div>
   );
 };
+
+function findPostById(postId, posts) {
+  return posts.find((post) => post.id === postId);
+}
 
 export default BlogPostDetail;

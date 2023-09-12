@@ -22,14 +22,14 @@ export const dummyPosts = [
   },
   {
     id: 4,
-    title: "Sample Blog Post 3",
+    title: "Sample Blog Post 4",
     content: "This is the content of the fourth blog post.",
     author: "Mr Anderson",
     date: "September 19, 2023",
   },
   {
     id: 5,
-    title: "Sample Blog Post 3",
+    title: "Sample Blog Post 5",
     content: "This is the content of the fifth blog post.",
     author: "Alice in Wonderland",
     date: "September 23, 2023",

@@ -1,0 +1,20 @@
+.blog-post-detail {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.post-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.post-content {
+  margin-top: 10px;
+}
+
+.post-meta {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+}

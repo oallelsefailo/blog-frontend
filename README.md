@@ -4,9 +4,10 @@ Simple frontend blog app
 
 ## Features
 
-- Create, read blog posts.
-- Update (work in progress)
-- Delete (work in progress)
+  - Read 
+  - Create (work in progress)
+  - Update (work in progress)
+  - Delete (work in progress)
 
 ## Technologies Used
 
@@ -22,5 +23,5 @@ Simple frontend blog app
 
 ## Usage
 
-- npm i
-- npm start
+  - npm i
+  - npm start
